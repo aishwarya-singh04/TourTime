@@ -25,7 +25,7 @@ window.onload = function() {
         }
 
         if (slide < 0) {
-            slide = currentSlide = testimContent.length-1;
+            slide = currentSlide = testimContent.length-1;1
         }
 
         if (slide > testimContent.length - 1) {
