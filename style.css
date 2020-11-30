@@ -1,0 +1,54 @@
+body{
+    background-image: url(images/tour.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    margin-top: 25px;
+}
+#background{
+    padding-top: 50px;
+    padding-left:300px;
+    margin-top: 25px;
+}
+h3{
+  color:orangered;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:30px;
+  font-size:30px;
+}
+h1{
+    color:whitesmoke;
+}
+#content{
+    text-align:center;
+    padding-top: 15%;
+    background-color: rgba(0,0,0,0.3);
+    max-width:500px;
+    padding:30px 20px;
+    margin-top:50px;
+}
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+   }
+   body{
+       padding-bottom: 40px;
+   }
+   nav img{
+    width: 50px;
+    height:70px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    top:0px;
+} 
+form{
+    padding-top:8px;
+}
+form button{
+    background-color:lightgreen;
+}
