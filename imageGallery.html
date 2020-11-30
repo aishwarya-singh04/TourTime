@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destinations Gallery</title>
+    <link rel="stylesheet" href="css/dailydiet.css">
 	<link rel="stylesheet" href="css/lightbox.css">
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/cycle2.js"></script>
@@ -89,9 +90,9 @@
         .content-area{
             /*border-top: 3px solid #e5e9dc;
             border-bottom: 3px solid #e5e9dc;*/
+            margin-top: -20px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size:22px;
-            margin-top: 70px;
             text-align: center;
             /*font-style: bold;
             color:darkslategray;*/
@@ -337,51 +338,45 @@
         padding: 5px 15px;
         float: none;
       }
+    
+      
     }
+   
         /* end media footer-2 */
         
     </style>
 </head>
 <body>
-    <div class="content-area group">
-        <div id="nav">
-    
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark border-bottom border-light" style="position: fixed; top: 0; width: 100%; left: 0px;z-index: 100; font-size: 16px;">
-                <!-- Brand -->
-                <a class="navbar-brand" href="home.html"><img src="images/output-onlinepngtools (1).png" alt="_blank" style="width: 40px; height: 40px; object-fit: contain;" ></a>
-        
-                <!--Search Bar-->
-                <form class="form-inline" action="/action_page.php">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" style="font-size: 16px;">
-                    <button class="btn btn-success" type="submit" style="font-size: 16px;">Search</button>
-                </form>
-                <!-- Links -->
-                <ul class="navbar-nav nav-item ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"></a>
-                       
-                        <div class="dropdown-menu">
-                          <a class="dropdown-item" href="about.html">About</a>
-                          <a class="dropdown-item" href="contact.html">Contact</a>
-                          <a class="dropdown-item" href="testimonials3.html">Testimonials</a>
-                          <a class="dropdown-item" href="imageGallery.html">Gallery</a>
-                          <a class="dropdown-item" href="index.html">Exit</a>
-                        </div>
-                      </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="signup.html">Sign Up</a>
-                  </li>
-              
-                 
-                </ul>
-                
-              </nav>
+  <nav class="navigation" style="position: fixed; top: 0px; width: 100%;">
+    <div class="nav-logo"><img src="images/camel.jpg" alt="_target" style="line-height: 50px;width: 40px;height: 40px; margin-right: 15px; font-weight: bolder;">TOUR TIME</div>
+    <ul class="nav-menu">
+      <li><a href="homepage.php">Home</a></li>
+      <li><a href="contactUs.php">Contact Us</a></li>
+      <li><a href="testimonial.php">Testimonials</a></li>
+      <li><a href="login.php">Login</a></li>
+      <li><a href="signup.php"> Sign Up</a> </li>
+      
+    </ul>
+    <div class="nav-toggle">
+      <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+    </div>
+  </nav>
+  <div class="nav-overlay"></div>
+  
+  <script src="js/dailydiet.js"></script>
+ 
 
+  <div id="heading">
+    <h1 id="head" style="text-shadow: 1px 1px black;">Our destinations. &#x2764</h1>
+    <h4>Let's get started! Explore the incredible India with us.</h4>
+    <h2 style="text-align: center;"> &#x1F64F</h2>
+  </div>
+    
+  <div class="content-area group" >
     <div class="main-area" >
-    <div class="thumbnails group">
+    <div class="thumbnails group" style="margin-bottom: 650px;">
         <a href="images/1.jpg" data-lightbox="gallery" data-title="Picture"><img src="images/1.jpg" alt="_blank"></a>
         <a href="images/2.jpg" data-lightbox="gallery" data-title="Picture"><img src="images/2.jpg" alt="_blank"></a>
         <a href="images/3.jpg" data-lightbox="gallery" data-title="Picture"><img src="images/3.jpg" alt="_blank"></a>
@@ -402,10 +397,9 @@
         <a href="images/18.jpg" data-lightbox="gallery" data-title="Picture"><img src="images/18.jpg" alt="_blank"></a>
     </div>
     </div>
-    <div>
-        <h4>Let's get started, Explore India.</h4>
-    </div>
-    </div>
+  </div>
+  
+    
     
     <!--Code for footer-->
     <footer>
@@ -415,15 +409,15 @@
           <div class="details">
             <div>
               <p>phone number</p>
-              <span><a href="">+1 (800)060-07-30</a></span>
+              <span><a href="">+91 7393090868</a></span>
             </div> 
             <div> 
               <p>email address</p>
-              <span><a href=""> us@example.com</a></span>
+              <span><a href=""> simran.aurya_cs18@gla.ac.in</a></span>
             </div>
             <div>
               <p>our location</p>
-              <span>751 Fake Street,New York<br> 10021 USA</span>
+              <span>GLAU, Mathura, U.P.<br> 281001 INDIA</span>
             </div> 
             <div>
               <p>working hours</p>
@@ -453,10 +447,10 @@
         </div>
         <div class="newsletter">
           <h6>newsletter</h6>
-          <p>enter your email address below to subscribe to our newsletter<br>
-          and keep up to date with discounts and special offers</p>    
+          <p>enter your email address below to Sign In to our website<br>
+          and keep up to date with places and special packages</p>    
           <input type="email" name="email" placeholder="user@example.com">
-          <button>Sign Up</button>
+          <button>Sign In</button>
           <p>follow us on social networks</p>
           <a href=""><i class="fab fa-facebook-f"></i></a>
           <a href=""><i class="fab fa-twitter"></i></a>

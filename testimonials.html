@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Testimonials</title>
+    <link rel="stylesheet" href="css/dailydiet.css">
     <link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
 
@@ -25,6 +26,9 @@
             margin: 0;
             box-sizing: border-box;
         }
+        body{
+          background: rgba(0, 0, 0, 0.863);
+        }
 
         #quote-carousel {
             padding: 0 10px 30px 10px;
@@ -33,7 +37,7 @@
         #quote-carousel .carousel-control {
             background: none;
             color: #CACACA;
-            color: gray;
+            
             font-size: 2.3em;
             text-shadow: none;
             margin-top: 30px;
@@ -349,44 +353,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-    <div id="nav">
-    
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark border-bottom border-light" style="position: fixed; top: 0; width: 100%; left: 0px; font-size: 16px; z-index: 100;">
-      <!-- Brand -->
-      <a class="navbar-brand" href="home.html"><img src="images/output-onlinepngtools (1).png" alt="_blank" style="width: 50px; height: 50px; object-fit: contain;" ></a>
-
-      <!--Search Bar-->
-      <form class="form-inline" action="/action_page.php">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" style="font-size: 16px;">
-          <button class="btn btn-success" type="submit" style="font-size: 16px;">Search</button>
-      </form>
-      <!-- Links -->
-      <ul class="navbar-nav nav-item ml-auto">
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"></a>
-             
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="about.html">About</a>
-                <a class="dropdown-item" href="contact.html">Contact</a>
-                <a class="dropdown-item" href="testimonials3.html">Testimonials</a>
-                 <a class="dropdown-item" href="imageGallery.html">Gallery</a>
-                <a class="dropdown-item" href="index.html">Exit</a>
-              </div>
-            </li>
-        <li class="nav-item">
-          <a class="nav-link" href="login.html">Login</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="signup.html">Sign Up</a>
-        </li>
-    
-       
+    <nav class="navigation" style="position: fixed; top: 0px; width: 100%; font-size: 16px; z-index: 100;">
+      <div class="nav-logo"><img src="images/camel.jpg" alt="_target" style="line-height: 50px;width: 40px;height: 40px; margin-right: 15px; font-weight: bolder;">TOUR TIME</div>
+      <ul class="nav-menu">
+        <li><a href="homepage.php">Home</a></li>
+        <li><a href="contactUs.php">Contact Us</a></li>
+        <li><a href="testimonial.php">Testimonials</a></li>
+        <li><a href="login.php">Login</a></li>
+        <li><a href="signup.php"> Sign Up</a> </li>
+        
       </ul>
-      
+      <div class="nav-toggle">
+        <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+      </div>
     </nav>
+    <div class="nav-overlay"></div>
+    
+    <script src="js/dailydiet.js"></script>
+   
 
-
-    <div class="jumbotron jumbotron-sm" style="margin-top: 60px; color: cornsilk;">
+    <div class="jumbotron jumbotron-sm" style="margin-top: 50px; color: cornsilk;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-lg-12">
@@ -411,7 +399,7 @@
                             <blockquote>
                                 <div class="row">
                                     <div class="col-sm-8 col-sm-offset-2">
-                                        <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                                        <p style="color: darkkhaki;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
                                         <small>Someone famous</small>
                                     </div>
                                 </div>
@@ -422,7 +410,7 @@
                             <blockquote>
                                 <div class="row">
                                     <div class="col-sm-8 col-sm-offset-2">
-                                        <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                        <p style="color:darkkhaki;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                                         <small>Someone famous</small>
                                     </div>
                                 </div>
@@ -433,7 +421,7 @@
                             <blockquote>
                                 <div class="row">
                                     <div class="col-sm-8 col-sm-offset-2">
-                                        <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+                                        <p style="color: darkkhaki;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
                                         <small>Someone famous</small>
                                     </div>
                                 </div>
@@ -470,15 +458,15 @@
           <div class="details">
             <div>
               <p>phone number</p>
-              <span><a href="">+1 (800)060-07-30</a></span>
+              <span><a href="">+91 7393090868</a></span>
             </div> 
             <div> 
               <p>email address</p>
-              <span><a href=""> us@example.com</a></span>
+              <span><a href=""> simran.aurya_cs18@gla.ac.in</a></span>
             </div>
             <div>
               <p>our location</p>
-              <span>751 Fake Street,New York<br> 10021 USA</span>
+              <span>GLAU, Mathura, U.P.<br>281001 INDIA</span>
             </div> 
             <div>
               <p>working hours</p>
@@ -508,10 +496,10 @@
         </div>
         <div class="newsletter">
           <h6>newsletter</h6>
-          <p>enter your email address below to subscribe to our newsletter<br>
-          and keep up to date with discounts and special offers</p>    
+          <p>enter your email address below to Sign In to our wbsite<br>
+          and keep up to date with places and special packages</p>    
           <input type="email" name="email" placeholder="user@example.com">
-          <button>Sign Up</button>
+          <button>Sign In</button>
           <p>follow us on social networks</p>
           <a href=""><i class="fab fa-facebook-f"></i></a>
           <a href=""><i class="fab fa-twitter"></i></a>
