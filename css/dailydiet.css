@@ -7,9 +7,8 @@
 
 body{
   height: 100%;
-  /*background: linear-gradient(120deg, teal, skyblue);*/
   font-family: 'Open Sans';
-  line-height: 1;                   /*added now*/
+  line-height: 1px;                   /*added now*/
 }
 ol, ul {
   list-style: none;
