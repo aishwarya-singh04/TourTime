@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="css/dailydiet.css">
     <!--Header Link-->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
     <!--nav bar-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
      <!--Latest compiled and minified CSS -->
@@ -15,8 +14,6 @@
      <!-- jQuery library -->
      <script src="https;//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>About Us</title>
     <style>
@@ -94,45 +91,205 @@
        color:orangered;
       font-weight:bolder;
    }
-   footer{
-    height:240px;
-    background-color: #140707;
-    color:white;
-    width: 100%;
-   }
-   footer h4{
-       color:orangered;
-       text-align:left;
-   }
-   footer input{
-       display:block;
-   }
-   #box{
-       width:40px;
-       height:40px;
-       color:white;
-       background-color: white;
-       padding-top:5px;
-   }
-   footer #next{
-       display:block;
-       display:flex;
-       justify-content: left;
-       padding-top:20px;
-   }
-   footer .glyphicon{
-       font-size:30px;
-       color:royalblue;
-   }
-   h5{
-       margin: 30px auto;
-   }
-   @media screen and (max-width:767px){
+   nav a{
+            font-weight: bolder;
+        }
+    /*Footer styling*/
+
+    footer{
+      
+      width: auto;
+      background-color: #333;
+      padding: 0 50px 0 ;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      font-family: arial, tahoma;
+      font-size: 12px;
+      color: #fff;
+      text-transform: capitalize;
+    }
+    footer p{
+      line-height: 180%;
+      color: #a29e9e;
+    }
+    footer h6, div{
+      margin-bottom: 20px;
+    } 
+    footer h6{
+      margin-top: 25px;
+      font-size: 16px;
+    }
+    footer a{
+      text-decoration: none;
+      color: #fff;
+    }
+    footer div .one{
+      margin-bottom: 20px;
+      text-transform: none;
+    }
+    footer .details{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    footer .details div{
+      width: 150px;
+      margin-right: 20px;
+    }
+    footer .details div p{
+      text-transform: uppercase;
+    }
+    footer .details div span{
+      margin-bottom: 20px;
+    }
+    footer  .contact{
+      width: 340px;
+    }
+    footer .information{
+      margin-right: 20px;
+    }
+    footer .information p{
+      margin-bottom: 8px;
+    }
+    footer .account p{
+      margin-bottom: 8px;
+      width: 150px;
+    }
+    footer .newsletter p, input{
+      padding: 5px;
+    }
+    footer .newsletter input{
+      width: 170px;
+      margin-bottom: 20px;
+      border-style: none;
+      background-color: #4d4d4d;
+      color: #a29e9e;
+    }
+    footer .newsletter input::placeholder{
+      color: #a29e9e;
+      font-size: 10px;
+    }
+    footer .newsletter button{
+      padding: 7px 12px;
+      margin-left: 4px;
+      color: #fff;
+      background-color: #f00;
+      font-size: 10px;
+      border-style: none;
+    }
+    footer .newsletter a{
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 20px;
+    }
+    footer .newsletter a:first-of-type{
+      background-color: #4267B2;
+    }
+    footer .newsletter a:nth-of-type(2){
+      background-color:  #1da1f2;
+    }
+    footer .newsletter a:nth-of-type(3){
+      background-color:  #f00;
+    }
+    footer .newsletter a:nth-of-type(4){
+      background-color: #8a50ca;
+    }
+    
+    footer .newsletter a:last-of-type{
+      background-color: #eeaa2f;
+      color: #333;
+    }
+    footer a:hover {
+    color: rgba(0, 0, 0, .3); 
+    transform: scale(1.3);
+    transition: all .2s ease-in-out;      
+    }
+    /* start media footer */
+    @media (max-width: 767px) {
+      footer{
+        padding: 15px 30px;
+        justify-content: initial;
+    }
+      footer .information{
+        width: 120px;
+      }
+      footer .account{
+        width: 120px;
+      }
+    }
+    /* end media footer */
+    .footer-2{
+      width: 100%;
+      height: 45px;
+      
+      padding: 15px 180px;
+      background-color: #252121;
+      position: relative;
+     
+    }
+    .footer-2 p{
+      color: gray;
+      display: inline-block;
+      position: absolute;
+      top: 15px;
+    }
+    .footer-2 p span{
+      color: #fff;
+    }
+    .footer-2 .icons{
+      float: right;
+    }
+    .footer-2 a{
+      display: inline-block;
+      margin-right: 4px;
+    }
+    .footer-2 a:first-of-type{
+      background-color: #31abea; 
+      color: #fff;
+    }
+    .footer-2 a:nth-of-type(2){
+      background-color: #14226b; 
+      color: #fff;
+    }
+    .footer-2 a:nth-of-type(3){
+      background-color: #31abea; 
+      color: #fff;
+    }
+    .footer-2 a:nth-of-type(4){
+      background-color: orange; 
+      color: #fff;
+    }
+    .footer-2 a:last-of-type{
+      background-color: #31abea; 
+      color: #fff;
+    }
+    .footer-copyright{
+      margin-bottom: 0;
+    }
+        /* start media footer-2 */
+    @media (max-width: 767px) {
+      .footer-2{
+        padding: 5px 20px;
+        height: 80px;
+    }
+    .footer-2 p{
+      padding: 5px 15px;
+      float: none;
+      position: static;
+    }
+      .footer-2 .icons{
+        padding: 5px 15px;
+        float: none;
+      }
+      #last{
+        margin-bottom: 100px;
+      }
       #banner{
           margin-bottom: 80px;
-      }
-      footer{
-          height: 1000px;
       }
         h1{
            position: absolute;
@@ -152,19 +309,22 @@
         margin:auto auto;
         margin-bottom: 10px;
        }
-   }
-
+    }
+   
+        /* end media footer-2 */
+ 
     </style>
 </head>
 <body>
     <nav class="navigation" style="position: fixed; top: 0px; width: 100%;">
         <div class="nav-logo"><img src="images/camel.jpg" alt="_target" style="line-height: 50px;width: 40px;height: 40px; margin-right: 15px; font-weight: bolder;">TOUR TIME</div>
         <ul class="nav-menu">
-          <li><a href="homepage.php">Home</a></li>
-          <li><a href="contactUs.php">Contact Us</a></li>
-          <li><a href="testimonial.php">Testimonials</a></li>
-          <li><a href="login.php">Login</a></li>
-          <li><a href="signup.php"> Sign Up</a> </li>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="contactUs.html">Contact Us</a></li>
+          <li><a href="testimonial.html">Testimonials</a></li>
+          <li><a href="imageGallery.html">Gallery</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="signup.html"> Sign Up</a> </li>
           
         </ul>
         <div class="nav-toggle">
@@ -256,59 +416,73 @@
                 </div>
         </div>
         </div>
-<footer>
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-md-3 col-sm-6">
-                <h4>Visit Now!</h4>
-                <div class="caption">
-                    <h5>Check out these:-</h5>
-                    <a href="https://en.wikipedia.org/wiki/Tourism_in_India#:~:text=Delhi%2C%20Mumbai%2C%20Chennai%2C%20Agra,Jaipur%2052nd%20and%20Kolkata%2090th." target="_blank">Wikipedia</a>
-                   <hr> 
-                   <h5>Travel guide</h5> 
-                   <a href="https://www.yatra.com/online/government-guidelines" target="_blank">Govt.OfIndia</a>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <h4>Newslatter</h4>
-                <div class="caption">
-                  <p style="font-size: small; color:white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti nulla ea sint sequi quasi rerum accusantium sapiente vero aut consectetur.</p>
-                <form>
-                  <a href="#"><span style="float:left">Your Email Address</span></a>
-                <input type="text">
-               <span style="float: right; padding-top: 10px;"><a href="home.html" target="_blank"><input type="button" class="btn btn-primary" value="Sign Up"></a></span>
-                </form>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <h4>Recent Projects</h4>
-                <div class="caption">
-                   <div id="box">
-                    <p style="padding-left:60px;color:white;font-size:smaller">Business Card</p></div>
-                    <hr>
-                   <div id="box">
-                    <p style="padding-left:60px;color:white;font-size:smaller">Message Rewards</p></div>
-                    <hr>
-                   <div id="box">
-                    <p style="padding-left:60px;color:white;font-size:smaller">Website Design</p></div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <h4>Contact</h4>
-                <div class="caption">
-                   <div id="next"><i class="glyphicon glyphicon-earphone"></i>
-                <p style="padding-left:60px;color:white;font-size:smaller">1-000-000-0000</p></div>
-                   <div id="next"><i class="glyphicon glyphicon-phone"></i>
-                    <p style="padding-left:60px;color:white;font-size:smaller">1-000-000-0000</p></div>
-                    <div id="next"><i class="glyphicon glyphicon-envelope"></i>
-                        <p style="padding-left:60px;color:white;font-size:smaller">1-000-000-0000</p></div>
-                </div>
-            </div>
         </div>
-    </div>
+        
+        <!--Code for footer-->
+    <footer>
+        <div class="contact">
+          <h6>contact us</h6>
+          <p class="one">Hi, we are always open for cooperation and suggestions,<br> contact us in one of the ways below</p>
+          <div class="details">
+            <div>
+              <p>phone number</p>
+              <span><a href="">+91 7393090868</a></span>
+            </div> 
+            <div> 
+              <p>email address</p>
+              <span><a href=""> simran.aurya_cs18@gla.ac.in</a></span>
+            </div>
+            <div>
+              <p>our location</p>
+              <span>GLAU, Mathura, U.P.<br> 281001 INDIA</span>
+            </div> 
+            <div>
+              <p>working hours</p>
+              <span>Mon-Sat 10.00am-7.00pm</span>
+            </div> 
+          </div>  
+        </div>
+        <div class="information">
+          <h6>information</h6>
+          <p>about us</p>
+          <p>delivery information</p>
+          <p>privacy policy</p>
+          <p>brands</p>
+          <p>contact us</p>
+          <p>returns</p>
+          <p>site map</p>
+        </div>
+        <div class="account">
+          <h6>my account</h6>
+          <p>store location</p>
+          <p>order history</p>
+          <p>wish list</p>
+          <p>newsletter</p>
+          <p>special offers</p>
+          <p>gift certificates</p>
+          <p>affiliate</p>
+        </div>
+        <div class="newsletter">
+          <h6>newsletter</h6>
+          <p>enter your email address below to Sign In to our website<br>
+          and keep up to date with places and special packages</p>    
+          <input type="email" name="email" placeholder="user@example.com">
+          <button>Sign In</button>
+          <p>follow us on social networks</p>
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fab fa-youtube"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fas fa-rss"></i></a>
+        </div>
 
-</footer>
-       
+      </footer>
+      <div class="footer-copyright text-center py-3" style="color: grey; background-color: rgb(29, 28, 28); font-size: small;">© 2020 Copyright:
+        <a href="https://Tour Time.com/" style="color: white">Tour Time.com</a>
+      </div>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    
 
 </body>
 </html>
